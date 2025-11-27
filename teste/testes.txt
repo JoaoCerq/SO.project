@@ -1,0 +1,9 @@
+ls  
+cd teste 
+ls 
+cd .. 
+ls teste 
+echo Olá Mundo!
+cat teste/Lorem_ipsum.txt
+cat teste/Lorem_ipsum.txt | grep -w in 
+cat teste/Lorem_ipsum.txt | grep -w in | wc -l
