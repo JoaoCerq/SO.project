@@ -86,6 +86,13 @@ Sem histórico de comandos	                Não há persistência de histórico 
 
 Sem tratamento avançado de sinais	        Apenas Ctrl+C (KeyboardInterrupt) e Ctrl+D (EOF) são tratados
 
+Sem execução paralela de pipelines        Cada estágio do pipe é executado sequencialmente; em shells reais 
+                                          (bash, zsh) todos os processos do pipeline rodam em paralelo.
+
+Sem redirecionamento de arquivos (>, <)    O shell não implementa gravação/leitura em arquivos via redirecionamento.
+
+
+
 
 
 
